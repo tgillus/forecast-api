@@ -18,7 +18,7 @@
     "got": "12.6.0",
     "lambda-log": "3.1.0",
     "purifree-ts": "1.2.3",
-    "zod": "3.21.3"
+    "zod": "3.21.4"
   },
   "devDependencies": {
     "@triviumsoftware/chemist": "2.0.5",
