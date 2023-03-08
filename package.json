@@ -1,0 +1,30 @@
+{
+  "name": "forecast-api",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Tramaine L. Gillus",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "commit": "commit",
+    "format": "prettier . --write",
+    "lint": "eslint . --ext .js,.ts",
+    "lint:fix": "eslint . --ext .js,.ts --fix",
+    "prepare": "husky install"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@changesets/cli": "2.26.0",
+    "@commitlint/cli": "17.4.4",
+    "@commitlint/config-conventional": "17.4.4",
+    "@commitlint/prompt-cli": "17.4.4",
+    "eslint": "8.35.0",
+    "husky": "8.0.3",
+    "lint-staged": "13.1.2",
+    "nx": "15.8.5",
+    "prettier": "2.8.4"
+  }
+}
